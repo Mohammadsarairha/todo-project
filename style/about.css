@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.abouth{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color:#323232;
+    justify-content:left;
+}
+.abouth nav a{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding:80px;
+    color: #fff;
+    text-decoration:none;
+}
+.icon{
+    height: 40px;
+    padding: 50px;
+}
+.abouth nav a:hover{
+    color: #323232;
+    background-color: #fff;
+}
+#profile{
+    width: 200px;
+    margin: auto;
+}
+.info {
+    text-align: center;
+}
+.profilearea{
+    display: grid;
+    grid-template-columns: 1fr 80%;
+    padding-top: 50px;
+    gap: 20px;
+}
+.info #name{
+    font-size: 30px;
+    color: red;
+    
+}
+.info #des{
+    border: 1px solid black;
+    padding: 50px;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cont{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.contact form input {
+  padding: 20px;
+  margin: 20px;
+  font-size: 15px;
+}
+#textarea{
+    padding: 20px;
+    margin: 20px;
+}
+.contact form label{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact form input[type=submit]{
+   width: 50%;
+   margin: auto;
+   margin-top: 20px;
+   border: none;
+   background-color: #04AA6D; /* Green */
+  border-radius: 8px;
+  color: #fff;
+}
+.contact form input[type=submit]:hover{
+    color:#04AA6D ;
+    background-color: #000;
+   
+}
+.aboutf{
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    background-color:#323232;
+    color: #fff;
+}
