@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.indexb{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.indexh{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color:#323232;
+    justify-content:left;
+}
+.indexh nav a{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding:80px;
+    color: #fff;
+    text-decoration:none;
+}
+.icon{
+    height: 40px;
+    padding: 50px;
+}
+.indexh nav a:hover{
+    color: #323232;
+    background-color: #fff;
+}
+.indexm{
+    display: grid;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ToDoTabl{
+    margin-left: auto; 
+    margin-right: auto;
+    width:50%;
+    
+}
+.indexm table caption{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+.ToDoTabl ,th ,td{
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+}
+.ToDoTabl td:hover{
+background-color: #323232;
+}
+.ToDoTabl,th{
+    padding: 15px;
+}
+.ToDoTabl,td{
+    padding: 10px;
+}
+.indexf{
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    background-color:#323232;
+    color: #fff;
+}
