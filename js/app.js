@@ -29,9 +29,10 @@ if (gender === "Male") {
 
 // This function repate question three time
 let answerArr = [];
+let hobbies = ["Anime", "Video Games", "Footbal"]
 function repeatQuestion() {
     for (let i = 0; i < 3; i++) {
-        answerArr[i] = checkAnswer(prompt("Please type your answer here"));
+        answerArr[i] = checkAnswer(prompt(`Do you like ${hobbies[i]} ?`));
     }
 }
 
